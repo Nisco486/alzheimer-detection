@@ -167,19 +167,3 @@ print(f"Confidence: {probabilities[prediction]*100:.1f}%")
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
-
-- OASIS dataset providers
-- Google Colab for GPU resources
-- PyTorch and Hugging Face communities
-- Groq for LLM API access
-
-## 🔗 References
-
-1. Dosovitskiy et al., "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale", ICLR 2021
-2. Tan & Le, "EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks", ICML 2019
-3. Marcus et al., "Open Access Series of Imaging Studies (OASIS)", J Cogn Neurosci 2007
-
----
-
-⭐ **Star this repository if you find it helpful!**
