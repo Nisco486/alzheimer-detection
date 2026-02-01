@@ -1,0 +1,59 @@
+# Environments
+.env
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data and Models (Large files)
+data/
+models/
+checkpoints/
+*.pth
+*.h5
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+notebooks/raw.zip
+notebooks/*.zip
+*.zip
+*.ipynb
+*.pptx
+
+# Logs and temporary files
+*.log
+agent_error*.txt
+agent_out.txt
+cell_*.txt
+debug_output.txt
+norm_output.txt
+agent_error.txt
+agent_error_2.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+kaggle.json

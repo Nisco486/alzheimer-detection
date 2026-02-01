@@ -1,0 +1,24 @@
+data:
+  root_dir: "data/raw/Data"
+  img_size: 224
+  num_classes: 4
+  class_names: 
+    - "MildDemented"
+    - "ModerateDemented"
+    - "NonDemented"
+    - "VeryMildDemented"
+
+model:
+  backbone: "efficientnet_b3"
+  vit_dim: 512
+  depth: 6
+  num_heads: 8
+  dropout: 0.1
+
+paths:
+  checkpoint_dir: "checkpoints"
+  best_model: "models/fine_tuned_model.pth"
+  vit_model: "models/ViT_Pretrained_best.pth"
+  hybrid_model: "models/Hybrid_Optimized_best.pth"
+  cnn_model: "models/CNN_EfficientNetB3_best.pth"
+  logs: "logs"
